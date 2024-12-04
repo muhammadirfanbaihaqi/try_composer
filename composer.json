@@ -1,0 +1,19 @@
+{
+    "name": "irfan/belajar-membuat-library-composer",
+    "description": "belajar untuk membuat library composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Irfan\\Belajar_composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "muhammadirfanbaihaqi",
+            "email": "muhammadirfanbaihaqi538@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
